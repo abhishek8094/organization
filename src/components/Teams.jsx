@@ -89,9 +89,9 @@ export default function AppTeams() {
                       <div className="overlay">
                         <div className="socials">
                           <ul>
-                            <li><a href={item.githublink}><i className="fa fa-github"></i></a></li>
-                            <li><a href={item.twitterlink}><i className="fa fa-twitter"></i></a></li>
-                            <li><a href={item.linkedinlink}><i className="fa fa-linkedin-square"></i></a></li>
+                            <li><a href={item.githublink}><i className="fab fa-github"></i></a></li>
+                            <li><a href={item.twitterlink}><i className="fab fa-twitter"></i></a></li>
+                            <li><a href={item.linkedinlink}><i className="fab fa-linkedin-in"></i></a></li>
                           </ul>
                         </div>
                       </div>
