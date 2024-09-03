@@ -40,7 +40,7 @@ const BlogData = [
 export default function AppBlog() {
   return (
     <section id="blog" className="blog blog-block">
-      <Container fluid style={{marginTop:"70px"}}>
+      <Container fluid style={{position:"relative", top:"40px", bottom:"20px"}}>
         <div className="title-holder">
           <h2>Latest from blog</h2>
           <div className="subtitle">get our latest news from blog</div>

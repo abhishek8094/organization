@@ -103,7 +103,7 @@ html {
   }
   
   .container-fluid {
-    margin: 0 auto;
+    margin: 48px auto;
     max-width: 1200px;
   }
   
@@ -465,7 +465,7 @@ html {
   }
   
   .block {
-    padding: 70px 0;
+    padding: 76px 0;
     border-bottom: 1px solid #e6e6e6;
   }
   
@@ -485,6 +485,8 @@ html {
   
   .hero-block .carousel-item img {
     width: 100%;
+    object-fit: inherit;
+    height: 70vh;
   }
   
   .hero-block .carousel-caption {
@@ -775,6 +777,12 @@ html {
   
   .pricing-block .btn-holder {
     padding: 30px 20px;
+    
+  }
+
+  .btn-holder{
+    position: relative;
+    top: 10px;
   }
   
   .pricing-block div[class*="col"]:nth-child(2) {

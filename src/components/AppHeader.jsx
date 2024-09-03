@@ -10,7 +10,7 @@ export default function AppHeader() {
         <Navbar.Brand href="#home"><img src={OrgLogo} alt="home-img" style={{width:"2rem"}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>

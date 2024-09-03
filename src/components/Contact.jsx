@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 export default function AppContact() {
   return (
     <section id="contact" className="contact contact-block">
-      <Container fluid style={{ marginTop:"220px"}}>
+      <Container fluid style={{position:"relative", top:"40px" }}>
         <div className="title-holder">
           <h2>CONTACT US</h2>
           <p className="subtitle">get connected with us</p>
